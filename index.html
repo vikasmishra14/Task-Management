@@ -1,0 +1,44 @@
+<!-- 1. Landing Page
+
+* All tasks are there.
+* User can delete any task 
+* User can update any tasks
+* User can create new tasks -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+   <style>
+      table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+   </style>
+</head>
+<body>
+    <div id="container">
+<form action="" id="form">
+    <!-- <input type="text" placeholder="add task" -->
+    <input type="text" placeholder="task name" id="name">
+    <input type="date" placeholder="last date" id="date">
+    <input type="text" placeholder="task link" id="link">
+    <button id="btn">create task</button>
+</form>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
